@@ -22,7 +22,7 @@ function refresh(){
     selection.innerHTML = `You selected ${select} ouf of 5`
     selection.style = "color:var(--orange); background-color:var(--bgrey);border-radius:30px;padding:8px 0px;width:45%;font-size:12px;text-align:center"
     let img = document.createElement("img")
-    img.setAttribute("src","/images/illustration-thank-you.svg")
+    img.setAttribute("src","./images/illustration-thank-you.svg")
     img.style = "width: 150px;padding:2rem"
     let h2 = document.createElement("h2")
     h2.innerHTML = "Thank you!"
@@ -38,4 +38,3 @@ function refresh(){
     window.appendChild(h2)
     window.appendChild(text)
 }
-
